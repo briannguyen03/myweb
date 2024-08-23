@@ -1,5 +1,5 @@
 body{
-    margin: 10px;
+overflow-x: hidden;
 }
 
 p{
@@ -23,6 +23,11 @@ hr{
     height: 25px;
     width: 250px;
     background-color: gainsboro;
+
+    position:sticky;
+    top: 5px;
+
+    z-index: 1000;
 }
 
 
@@ -36,16 +41,17 @@ hr{
 }
 
 #image{
-    position: relative;
-    left: 600px;
-    top: -250px;
+position: absolute;
+left: 600px;
+}
 
-    
+#image img{
+    aspect-ratio: 3/2;
 }
 
 #mid{
     position: relative;
-    top: -150px;
+    top: 300px;
 }
 
 #mid h2{
@@ -58,7 +64,7 @@ hr{
     justify-content: center;
 
     position: relative;
-    top: 50px;
+    top: 450px;
 
     font-family: "Source code pro",sans-serif;
     font-size: 17px;
@@ -68,7 +74,7 @@ hr{
 #images{
 
     position: relative;
-    top: 150px;
+    top: 600px;
 
     display: flex;
     justify-content: space-around;
@@ -78,7 +84,7 @@ hr{
 #things{
 
     position: relative;
-    top: -60px;
+    top: 380px;
 
     display: flex;
     justify-content: space-around;
@@ -102,16 +108,6 @@ hr{
 #things h2:hover{
     color: tomato;
     transform: translateY(-3px);
-}
-
-#footer{
-    height: 50px;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    flex-wrap: wrap;
-    gap: 5px;
 }
 
 
