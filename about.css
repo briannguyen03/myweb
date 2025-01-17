@@ -1,5 +1,5 @@
 body{
-overflow-x: hidden;
+     overflow-x: hidden;
 }
 
 p{
@@ -41,12 +41,14 @@ hr{
 }
 
 #image{
+width: 600px;
+height: 400px;
 position: absolute;
-left: 600px;
+left: 750px
 }
 
 #image img{
-    aspect-ratio: 3/2;
+    aspect-ratio: 4/3;
 }
 
 #mid{
