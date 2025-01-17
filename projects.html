@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="projects.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>projects</title>
 </head>
 <body>
 
@@ -17,21 +17,75 @@
     <div id="top">
         <a id="homepage" href="index.html" title="home">🏠 home</a>
         <a id="projects" href="about.html" title="projects">👤 about</a>
-        <a id="email" href="" title="email">📫 e-mail</a>
+        <a id="email" href="mailto:nguyen.brian1403@gmail.com" title="email">📫 e-mail</a>
     </div>
     
+    <div id="title">
+        <h1>Projects</h1>
+        <hr>
+    </div>
 
-    <h1>Projects</h1>
-    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci recusandae, labore sit, autem dolores, rerum sequi magnam minima commodi quisquam numquam id fugit cum quidem ducimus incidunt nulla in corrupti?</h2>
-    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur id minima, nostrum, sunt, tempore magnam eaque facere hic nisi inventore molestiae laborum quae a suscipit rem est error impedit.</h3>
-    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt eius nisi, inventore in magnam esse optio enim, adipisci maiores repellat molestiae necessitatibus error aspernatur odio quaerat! Sapiente animi quas dolores.  </h4>
-    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero facere nihil incidunt amet minima id voluptates animi, ad autem ab ratione. Enim voluptatum quis, sapiente praesentium iusto error sit? </h5>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quaerat asperiores, corrupti maxime quod alias eveniet cupiditate officia, praesentium, possimus hic culpa cumque esse? Vel quasi nulla accusantium consequuntur voluptate!</p>
+<div class="cards">
 
-
-    <footer>
-        <h2>Under construction!</h2>
-    </footer>
+    <div class="card">
+        <div class="card-img">
+            <div class="img">
+                <img src="images/handpose_img.png" height="200" width="400">
+            </div>
+        </div>
+        <div class="tittle_n_sub">
+            <div class="card-title">Drawing Using Ai</div>
+        <div class="card-subtitle">Developed an interactive visual drawing program using TensorFlow.js and ML5.js. Leveraged the HandPose pre-trained model to detect hand keypoints and implemented functionality in JavaScript that allowed users to draw by pinching their thumb and index finger</div>
+        </div>
+        <hr class="card-divider">
+        <div class="card-footer">
+            <a href="ml_project.html">
+                <button class="card-btn" >
+                    More
+                </button>
+            </a>
+        </div>
+    </div>
     
+    <div class="card">
+        <div class="card-img">
+            <div class="img">
+                <img src="images/game_of_life.png" height="200" width="400">
+            </div>
+        </div>
+        <div class="tittle_n_sub">
+            <div class="card-title">The Game of Life</div>
+        <div class="card-subtitle">Recreated Conway’s Game of Life in p5.js using 2D arrays. Implemented Conway’s algorithm to simulate cell interactions based on neighbor states, creating dynamic, rule-based visual patterns.</div>
+        </div>
+        <hr class="card-divider">
+        <div class="card-footer">
+            <button class="card-btn">
+              More
+            </button>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-img">
+            <div class="img">
+                <img src="images/smart_bike.png" height="200" width="400">
+            </div>
+        </div>
+        <div class="tittle_n_sub">
+            <div class="card-title">Smart Bike Lane</div>
+        <div class="card-subtitle">Collaborated in a team to develop a smart bike lane system with dynamic lighting for bikers in poor conditions. Built a simple HTML website to display live sensor data and implemented interactive functionality with JavaScript. Created Python scripts to process analog input from IR, ambient light, and temperature sensors.</div>
+        </div>
+        <hr class="card-divider">
+        <div class="card-footer">
+            <button class="card-btn">
+              More
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
 </body>
 </html>
